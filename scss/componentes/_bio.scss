@@ -1,0 +1,28 @@
+
+.frasebio {
+    font-family: $font-titulo;
+    font-size: 1.5rem;
+    color: $font-color1; 
+    @include mobile {
+        font-size: 1rem;
+    }
+
+   
+}
+
+.textobio {
+    font-family: $font-frase, sans-serif;
+    font-size: medium;
+    color: $font-color2;
+    text-align: justify;
+    @include mobile {
+        font-size: 0.8rem;
+    }
+
+    .resaltebio{
+        font-weight: bolder;
+        color: $font-color1;
+    }
+  
+
+}

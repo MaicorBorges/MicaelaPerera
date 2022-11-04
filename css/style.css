@@ -1,0 +1,264 @@
+/*reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url(https://github.com/MaicorBorges/ProyectoCoder/blob/master/fonts/Ubuntu/Ubuntu-Regular.ttf);
+  src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: "aboreto";
+  src: url(https://github.com/MaicorBorges/ProyectoCoder/blob/master/fonts/Aboreto/Aboreto-Regular.ttf);
+  src: url(../../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+@font-face {
+  font-family: "yanone";
+  src: url(https://github.com/MaicorBorges/ProyectoCoder/blob/master/fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+  src: url(../../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: face;
+  src: url();
+}
+.gridhome {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.nombretitulo {
+  margin-top: 2rem;
+  letter-spacing: 1em;
+  font-family: "aboreto";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nombretitulo .titulohome {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.navbar .navbar-letra {
+  font-family: "aboreto";
+}
+
+.frasebio {
+  font-family: "aboreto";
+  font-size: 1.5rem;
+  color: rgb(196, 128, 40);
+}
+@media screen and (max-width: 576px) {
+  .frasebio {
+    font-size: 1rem;
+  }
+}
+
+.textobio {
+  font-family: "ubuntu", sans-serif;
+  font-size: medium;
+  color: rgb(42, 39, 7);
+  text-align: justify;
+}
+@media screen and (max-width: 576px) {
+  .textobio {
+    font-size: 0.8rem;
+  }
+}
+.textobio .resaltebio {
+  font-weight: bolder;
+  color: rgb(196, 128, 40);
+}
+
+.contenedor {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(8 1fr);
+  grid-template-areas: "caja1  caja2" "caja1  caja3" "caja4  caja5" "caja6  caja5" "caja7  caja8" "caja7  caja9" "caja10 caja11" "caja12 caja11";
+}
+@media screen and (max-width: 576px) {
+  .contenedor {
+    flex-direction: column;
+    display: block;
+  }
+}
+
+.caja1 {
+  grid-area: caja1;
+}
+
+.caja2 {
+  grid-area: caja2;
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja2 {
+    font-size: 1.4rem;
+  }
+}
+
+.caja3 {
+  grid-area: caja3;
+  font-size: 1rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja3 {
+    font-size: 0.8rem;
+  }
+}
+
+.caja4 {
+  grid-area: caja4;
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja4 {
+    font-size: 1.4rem;
+  }
+}
+
+.caja5 {
+  grid-area: caja5;
+}
+
+.caja6 {
+  grid-area: caja6;
+  font-size: 1rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja6 {
+    font-size: 0.8rem;
+  }
+}
+
+.caja7 {
+  grid-area: caja7;
+}
+
+.caja8 {
+  grid-area: caja8;
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja8 {
+    font-size: 1.4rem;
+  }
+}
+
+.caja9 {
+  grid-area: caja9;
+  font-size: 1rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja9 {
+    font-size: 0.8rem;
+  }
+}
+
+.caja10 {
+  grid-area: caja10;
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja10 {
+    font-size: 1.4rem;
+  }
+}
+
+.caja11 {
+  grid-area: caja11;
+}
+
+.caja12 {
+  grid-area: caja12;
+  font-size: 1rem;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .caja12 {
+    font-size: 0.8rem;
+  }
+}
+
+.nombretitulo .tituloactiv {
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "aboreto";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.carrousel-dimension {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-carrousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "ubuntu";
+  font-size: 1rem;
+  text-shadow: 2px -1px 4px white;
+}
+
+.titulo-carrousel {
+  font-size: 2rem;
+  color: rgb(42, 39, 7);
+  font-family: "ubuntu";
+  text-shadow: 2px -1px 4px white;
+}
+
+.navbar-letra {
+  font-size: 1.3rem;
+}
+
+.iconospie {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

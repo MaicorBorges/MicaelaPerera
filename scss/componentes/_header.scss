@@ -1,0 +1,29 @@
+.gridhome {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+    .nombretitulo {
+        margin-top: 2rem;
+        letter-spacing: 1em;
+        font-family: $font-titulo;
+        @include flex-row-center;
+
+        .titulohome {
+            font-size: 1.5em;
+            text-align: center;
+
+        }
+    }
+
+
+
+
+.navbar {
+    .navbar-letra {
+        font-family: $font-titulo;
+
+    }
+
+}

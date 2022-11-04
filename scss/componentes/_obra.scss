@@ -1,0 +1,127 @@
+.contenedor {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8 1fr);
+    grid-template-areas:
+        "caja1  caja2"
+        "caja1  caja3"
+        "caja4  caja5"
+        "caja6  caja5"
+        "caja7  caja8"
+        "caja7  caja9"
+        "caja10 caja11"
+        "caja12 caja11";
+       
+        @include mobile {
+
+          flex-direction: column;
+          display: block;
+
+        }
+
+}
+
+
+
+.caja1 {
+    grid-area: caja1;
+}
+
+.caja2 {
+    grid-area: caja2;
+    color: $font-color2;
+    font-size: 2rem;
+    font-family: $font-frase, sans-serif;
+
+    @include flex-center-center; 
+
+  @include mobile {
+            font-size:1.4rem;
+        }
+}
+
+.caja3 {
+    grid-area: caja3;
+    font-size: 1rem;
+    font-family: $font-frase, sans-serif;
+    @include flex-center-center;
+    @include mobile {
+        font-size: 0.8rem;
+    }
+}
+
+.caja4 {
+    grid-area: caja4;
+    color: $font-color2;
+    font-size: 2rem;
+    font-family: $font-frase, sans-serif;
+    @include flex-center-center;
+    @include mobile {
+        font-size:1.4rem;
+    }
+}
+
+.caja5 {
+    grid-area: caja5;
+}
+
+.caja6 {
+    grid-area: caja6;
+    font-size: 1rem;
+    font-family: $font-frase, sans-serif;
+    @include flex-center-center;
+    @include mobile {
+        font-size: 0.8rem;
+    }
+}
+
+.caja7 {
+    grid-area: caja7;
+}
+
+.caja8 {
+    grid-area: caja8;
+    color: $font-color2;
+    font-size: 2rem;
+    font-family: $font-frase, sans-serif;
+    @include flex-center-center;
+    @include mobile {
+        font-size:1.4rem;
+    }
+}
+
+.caja9 {
+    grid-area: caja9;
+    font-size: 1rem;
+    font-family: $font-frase, sans-serif;
+    @include flex-center-center;
+    @include mobile {
+        font-size: 0.8rem;
+    }
+}
+
+.caja10 {
+    grid-area: caja10;
+    color: $font-color2;
+    font-size: 2rem;
+    font-family: $font-frase, sans-serif;
+    @include flex-center-center;
+    @include mobile {
+        font-size:1.4rem;
+    }
+}
+
+.caja11 {
+    grid-area: caja11;
+}
+
+.caja12 {
+    grid-area: caja12;
+    font-size: 1rem;
+    font-family: $font-frase, sans-serif;
+    @include flex-center-center;
+    @include mobile {
+        font-size: 0.8rem;
+    }
+}

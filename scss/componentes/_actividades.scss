@@ -1,0 +1,33 @@
+
+.nombretitulo{
+    .tituloactiv{
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: $font-titulo;
+    @include flex-row-center;
+
+    }
+}
+
+.carrousel-dimension{
+    max-width: 50%  ;    
+    @include flex-center-center;
+    
+} 
+.texto-carrousel{
+    @include flex-row-center;
+    font-family: $font-frase;
+    font-size:  1rem;
+    text-shadow: 2px -1px 4px white;
+}
+
+
+.titulo-carrousel{
+    font-size: 2rem;
+    color: rgb(42, 39, 7);
+    font-family: $font-frase;
+text-shadow: 2px -1px 4px white;
+}
+
+
+
