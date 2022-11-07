@@ -1,13 +1,19 @@
+.containerFraseBio {
+    @include flex-center-center;
 
-.frasebio {
-    font-family: $font-titulo;
-    font-size: 1.5rem;
-    color: $font-color1; 
-    @include mobile {
-        font-size: 1rem;
+    .frasebio {
+        font-family: $font-titulo;
+        font-size: 1.5rem;
+        color: $font-color1;
+        text-align: center;
+        @include mobile {
+            font-size: 1rem;
+        }
+
+
     }
 
-   
+
 }
 
 .textobio {
@@ -15,14 +21,15 @@
     font-size: medium;
     color: $font-color2;
     text-align: justify;
+
     @include mobile {
         font-size: 0.8rem;
     }
 
-    .resaltebio{
+    .resaltebio {
         font-weight: bolder;
         color: $font-color1;
     }
-  
+
 
 }

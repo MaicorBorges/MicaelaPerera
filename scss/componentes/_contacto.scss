@@ -1,0 +1,50 @@
+
+
+.gridContacto{
+    margin-top: 60px;
+    grid-template-columns: 1fr;
+            grid-template-rows: repeat(5 1fr);
+            grid-gap: 5px;
+            grid-template-areas:
+                "cajaC1"
+                "cajaC2"
+                "cajaC3"
+                "cajaC4"
+                "cajaC5";
+        @include flex-center-center;
+        
+
+}
+
+.cajaC1{
+    grid-area: cajaC1;
+    color: $font-color2;
+    font-size: 1rem;
+    font-family: $font-contacto;
+
+}
+.cajaC2{
+    grid-area: cajaC2;
+    color: $font-color2;
+    font-size: 1rem;
+    font-family: $font-contacto;
+    
+}
+.cajaC3{
+    grid-area: cajaC3;
+    color: $font-color2;
+    font-size: 1rem;
+    font-family: $font-contacto;
+}
+.cajaC4{
+    grid-area: cajaC4;
+    color: $font-color2;
+    font-size: 1rem;
+    font-family: $font-contacto;
+}
+.cajaC5{
+    grid-area: cajaC5;
+    color: $font-color2;
+    font-size: 1rem;
+    font-family: $font-contacto;
+}

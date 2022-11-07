@@ -14,12 +14,25 @@
         "caja12 caja11";
        
         @include mobile {
-
-          flex-direction: column;
-          display: block;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(13 1fr);
+            grid-template-areas:
+                "caja1"
+                "caja2"
+                "caja3"
+                "caja5"
+                "caja4"
+                "caja6"
+                "caja7"
+                "caja8"
+                "caja9"
+                "caja11"
+                "caja10"
+                "caja12";
+        //   flex-direction: column;
+        //   display: block;
 
         }
-
 }
 
 
